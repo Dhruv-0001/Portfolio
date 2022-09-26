@@ -129,21 +129,11 @@ cola2,colb2,colc2 = st.columns(3)
 with cola2:
   st.write('')
 with colb2:
-  lottie_url_hello = "https://assets3.lottiefiles.com/private_files/lf30_vc1vwgxh.json"
+  lottie_url_hello = "https://assets4.lottiefiles.com/packages/lf20_tju2hfje.json"
   lottie_hello = load_lottieurl(lottie_url_hello)
   st_lottie(lottie_hello)
 with colc2:
   st.write('')
-
-st.write('\n')
-cola11,colb11,colc11 = st.columns(3)
-with cola11:
-  st.write('')
-with colb11:
-  st.subheader("KNOW MORE")
-with colc11:
-  st.write('')
-
 
 st.write('\n')
 
