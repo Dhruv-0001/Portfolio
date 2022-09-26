@@ -16,7 +16,7 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "PORTFOLIO | DHRUV TYAGI"
-PAGE_ICON = ":wave:"
+PAGE_ICON = "🚀"
 NAME = "DHRUV TYAGI"
 EMAIL = "dhruvtyagionly1@gmail.com"
 
