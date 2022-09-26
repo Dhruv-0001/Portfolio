@@ -150,12 +150,36 @@ st.write('\n')
 col22,col8,col23 = st.columns(3)
 with col22:
   if st.button("WORK EXPERIENCE"): 
-    st.write("hi2")
+    st.markdown('''
+    🔹SIEMENS | Research and Development Intern
+    ✔June 2022 - August 2022 | Kalwa,Mumbai
+
+    -  Created a workplan for the Automation of labs. In this an API of labs was created using Mind Connect IOT module.
+    -  Made a prototype application on Mindsphere cloud using Mendix and did PLC programming of labs on LOGO and TIA portal software
+    
+    🔹UNICOFY | Website Developer
+    ✔HBTU|College Based Startup
+
+    -  It is a startup based on Indian government scheme ODOP which aims to increase the selling of Famous Products of Every District.
+    -  Working on collecting data and building a product and gift recommendation system.
+    ''')
 with col8:
   st.write("")
 with col23:
   if st.button("EXTRA-CURRICULAR"):
-    st.write("hi3")
+    st.markdown('''
+    🔹CO-SECRETARY, ALUMNI ASSOCIATION HBTU
+    -  Organized and Managed Alumni Meet with Mr.President as our chief guest on the centennial celebration of HBTU.
+    -  Working on Building a Job Portal which will provide placement and internship opportunities to students.
+    🔹TECHNICAL WRITING
+    -  Written some articles on Emerging Technologies including Nano Diamond Batteries,Metaverse,etc.
+    🔹SOCIAL MEDIA MANAGEMENT
+    -  HANDLED THE INSTAGRAM PAGE OF ALUMNI ASSOCIATION AND LINKEDIN PAGE OF VARIOUS COLLEGE SOCITIES.
+    -  HAVE KNOWLEDGE OF SOCIAL MEDIA ALGORITHMS AND SEO.
+    🔹ATHLETICS
+    -  WON MEDAL IN SPRINTING IN STATE CAMP.
+    -  LOVES TO WORKOUT, FOR BEING HEALTHY.
+    ''')
 
 lottie_url_hello = "https://assets1.lottiefiles.com/packages/lf20_x62chJ.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
