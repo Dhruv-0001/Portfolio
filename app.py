@@ -7,23 +7,6 @@ import requests
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
 
-
-def add_bg_from_url():
-    st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background-image: url("https://www.icegif.com/wp-content/uploads/2022/05/icegif-513.gif");
-             background-attachment: fixed;
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
-
-add_bg_from_url() 
-
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
@@ -31,12 +14,12 @@ resume_file = current_dir / "assets" / "DHRUV TYAGI.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
 # --- GENERAL SETTINGS ---
-#PAGE_TITLE = "PORTFOLIO | DHRUV TYAGI"
-#PAGE_ICON = "🚀"
+PAGE_TITLE = "PORTFOLIO | DHRUV TYAGI"
+PAGE_ICON = "🚀"
 NAME = "DHRUV TYAGI"
 EMAIL = "dhruvtyagionly1@gmail.com"
 
-#st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
 #with open(css_file) as f:
