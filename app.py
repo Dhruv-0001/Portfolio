@@ -138,7 +138,7 @@ cola2,colb2,colc2 = st.columns(3)
 with cola2:
   st.write('')
 with colb2:
-  st.image("https://onlinepngtools.com/images/examples-onlinepngtools/sunset.gif")
+  st.image("https://animated-gif-creator.com/images/03/how-to-make-an-animated-gif-with-photoshop-lift-lie_7.gif")
 with colc2:
   st.write('')
 
