@@ -73,7 +73,7 @@ with col19 :
 with col20 :
   st.write("📫", EMAIL)
 
- st.image("https://cliply.co/wp-content/uploads/2019/12/371903520_SOCIAL_ICONS_TRANSPARENT_400px.gif")
+st.image("https://cliply.co/wp-content/uploads/2019/12/371903520_SOCIAL_ICONS_TRANSPARENT_400px.gif")
 
 
 icon_size = 20
