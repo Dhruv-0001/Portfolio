@@ -108,27 +108,14 @@ with colc1:
   st.write('')
 
 st.write('\n')
-cola2,colb2,colc2 = st.columns(3)
-with cola2:
-  st.write('')
-with colb2:
-    st.image("https://static.wixstatic.com/media/614445_94fc54c7e5914b70a12a6ebcaebbde31~mv2.gif")
-with colc2:
-  st.write('')
+st.image("https://static.wixstatic.com/media/614445_94fc54c7e5914b70a12a6ebcaebbde31~mv2.gif")
 
 st_button('', 'https://github.com/Dhruv-0001/Tech_Article-NDB.git', 'NDBs', icon_size)
 st_button('', 'https://github.com/Dhruv-0001/Metaverse.git', 'METAVERSE', icon_size)
 
 
 st.write('\n')
-cola2,colb2,colc2 = st.columns(3)
-with cola2:
-  st.write('')
-with colb2:
-  st.image("https://www.venuexplorer.com.sg/uploads/Working%20in%20progresss.gif  ")
-with colc2:
-  st.write('')
-
+st.image("https://www.venuexplorer.com.sg/uploads/Working%20in%20progresss.gif  ")
 st.write('\n')
 
 st.subheader("WORK EXPERIENCE")
