@@ -88,6 +88,7 @@ icon_size = 20
 st_button('linkedin', 'https://www.linkedin.com/in/dhruv-tyagi-9a526b218/', 'LINKEDIN', icon_size)
 st_button('', 'https://github.com/Dhruv-0001', 'GITHUB', icon_size)
 st_button('', 'https://www.instagram.com/iamdhruv.tyagi/', 'INSTAGRAM', icon_size)
+st_button('', EMAIL, 'E-MAIL', icon_size)
 
 st.write('\n')
 cola,colb,colc = st.columns(3)
@@ -138,7 +139,7 @@ cola2,colb2,colc2 = st.columns(3)
 with cola2:
   st.write('')
 with colb2:
-  st.image("https://animated-gif-creator.com/images/03/how-to-make-an-animated-gif-with-photoshop-lift-lie_7.gif")
+  st.image("https://www.venuexplorer.com.sg/uploads/Working%20in%20progresss.gif  ")
 with colc2:
   st.write('')
 
