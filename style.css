@@ -28,4 +28,6 @@ footer {
 header {
   visibility: hidden;
 }
-
+.css-linkbtn{
+  color:#fff;
+}
