@@ -31,12 +31,12 @@ resume_file = current_dir / "assets" / "DHRUV TYAGI.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "PORTFOLIO | DHRUV TYAGI"
-PAGE_ICON = "🚀"
+#PAGE_TITLE = "PORTFOLIO | DHRUV TYAGI"
+#PAGE_ICON = "🚀"
 NAME = "DHRUV TYAGI"
 EMAIL = "dhruvtyagionly1@gmail.com"
 
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+#st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
 #with open(css_file) as f:
