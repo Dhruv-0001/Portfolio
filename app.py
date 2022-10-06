@@ -78,7 +78,7 @@ cola2,colb2,colc2 = st.columns(3)
 with cola2:
   st.write('')
 with colb2:
-  st.image("https://cliply.co/wp-content/uploads/2019/04/371903520_SOCIAL_ICONS_1x1_400px.gif")
+  st.image("https://media.giphy.com/media/9tXsPh8IcW68X23udg/giphy.gif")
 with colc2:
   st.write('')
 
