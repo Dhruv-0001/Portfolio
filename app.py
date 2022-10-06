@@ -7,7 +7,7 @@ import requests
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
 
-def add_bg_from_url():
+'''def add_bg_from_url():
     st.markdown(
          f"""
          <style>
@@ -21,7 +21,7 @@ def add_bg_from_url():
          unsafe_allow_html=True
      )
 
-add_bg_from_url()
+add_bg_from_url()'''
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
