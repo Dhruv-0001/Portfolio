@@ -12,7 +12,7 @@ from streamlit_lottie import st_lottie_spinner
          f"""
          <style>
          .stApp {{
-             background-image: url("https://images.unsplash.com/photo-1550684376-efcbd6e3f031?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmxhY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+             background-image: url("https://images.unsplash.com/photo-1636953056323-9c09fdd74fa6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
              background-attachment: fixed;
              background-size: cover
          }}
