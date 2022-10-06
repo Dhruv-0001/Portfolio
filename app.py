@@ -129,7 +129,7 @@ cola2,colb2,colc2 = st.columns(3)
 with cola2:
   st.write('')
 with colb2:
-  lottie_url_hello = "https://assets4.lottiefiles.com/packages/lf20_tju2hfje.json"
+  lottie_url_hello = "https://assets8.lottiefiles.com/packages/lf20_f2vwipdy.json"
   lottie_hello = load_lottieurl(lottie_url_hello)
   st_lottie(lottie_hello)
 with colc2:
@@ -139,6 +139,8 @@ st.write('\n')
 
 col22,col8,col23 = st.columns(3)
 with col22:
+    st.write("")
+with col8:
   if st.button("WORK EXPERIENCE"): 
     st.markdown('''
     🔹SIEMENS | Research and Development Intern
@@ -146,16 +148,20 @@ with col22:
 
     -  Created a workplan for the Automation of labs. In this an API of labs was created using Mind Connect IOT module.
     -  Made a prototype application on Mindsphere cloud using Mendix and did PLC programming of labs on LOGO and TIA portal software
-    
+
     🔹UNICOFY | Website Developer
     ✔HBTU|College Based Startup
 
     -  It is a startup based on Indian government scheme ODOP which aims to increase the selling of Famous Products of Every District.
     -  Working on collecting data and building a product and gift recommendation system.
     ''')
-with col8:
-  st.write("")
 with col23:
+  st.write("")
+
+cold1,cold2,cold3 = st.colums(3)
+with cold1:
+    st.write("")
+with cold2:
   if st.button("EXTRA-CURRICULAR"):
     st.markdown('''
     🔹CO-SECRETARY, ALUMNI ASSOCIATION HBTU
@@ -170,6 +176,8 @@ with col23:
     -  WON MEDAL IN SPRINTING IN STATE CAMP.
     -  LOVES TO WORKOUT, FOR BEING HEALTHY.
     ''')
+with cold3:
+    st.write("")
 
 lottie_url_hello = "https://assets1.lottiefiles.com/packages/lf20_x62chJ.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
