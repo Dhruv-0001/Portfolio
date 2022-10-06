@@ -146,11 +146,11 @@ with col22:
         -  Created a workplan for the Automation of labs. In this an API of labs was created using Mind Connect IOT module.
         -  Made a prototype application on Mindsphere cloud using Mendix and did PLC programming of labs on LOGO and TIA portal software
 
-        🔹UNICOFY | Website Developer
-        ✔HBTU|College Based Startup
+        🔹INVARIANCE AUTOMATION LTD. | SDE Intern 
+        ✔Nov 2022 - Dec 2022 | IIT Kanpur
 
-        -  It is a startup based on Indian government scheme ODOP which aims to increase the selling of Famous Products of Every District.
-        -  Working on collecting data and building a product and gift recommendation system.
+        -  To Develop an OpenCV and Python based User Interface which ensures the proper alignment of various components on PCB.
+        -  To implement machine learning models for matching the product with the prototype for building an automated PCB assembly line.
         ''')
 with col8:
   st.write("")
