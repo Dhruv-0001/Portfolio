@@ -13,7 +13,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://i.gifer.com/Q2v1.gif");
+             background-image: url("https://www.icegif.com/wp-content/uploads/2022/05/icegif-513.gif");
              background-attachment: fixed;
              background-size: cover
          }}
@@ -155,8 +155,6 @@ st.write('\n')
 
 col22,col8,col23 = st.columns(3)
 with col22:
-    st.write("")
-with col8:
       if st.button("WORK EXPERIENCE"): 
         st.markdown('''
         🔹SIEMENS | Research and Development Intern
@@ -171,13 +169,9 @@ with col8:
         -  It is a startup based on Indian government scheme ODOP which aims to increase the selling of Famous Products of Every District.
         -  Working on collecting data and building a product and gift recommendation system.
         ''')
-with col23:
+with col8:
   st.write("")
-
-cold1,cold2,cold3 = st.columns(3)
-with cold1:
-    st.write("")
-with cold2:
+with col23:
       if st.button("EXTRA-CURRICULAR"):
         st.markdown('''
         🔹CO-SECRETARY, ALUMNI ASSOCIATION HBTU
@@ -192,8 +186,6 @@ with cold2:
         -  WON MEDAL IN SPRINTING IN STATE CAMP.
         -  LOVES TO WORKOUT, FOR BEING HEALTHY.
         ''')
-with cold3:
-    st.write("")
 
 lottie_url_hello = "https://assets10.lottiefiles.com/packages/lf20_x62chJ.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
