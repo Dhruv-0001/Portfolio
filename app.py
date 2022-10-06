@@ -158,7 +158,7 @@ with col8:
 with col23:
   st.write("")
 
-cold1,cold2,cold3 = st.colums(3)
+cold1,cold2,cold3 = st.columns(3)
 with cold1:
     st.write("")
 with cold2:
@@ -179,7 +179,7 @@ with cold2:
 with cold3:
     st.write("")
 
-lottie_url_hello = "https://assets1.lottiefiles.com/packages/lf20_x62chJ.json"
+lottie_url_hello = "https://assets8.lottiefiles.com/packages/lf20_wzaxxisv.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
 st_lottie(lottie_hello, key="hello")
 
