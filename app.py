@@ -7,6 +7,22 @@ import requests
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
 
+def add_bg_from_url():
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://images.unsplash.com/photo-1476842634003-7dcca8f832de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+
+add_bg_from_url() 
+
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
@@ -14,12 +30,12 @@ resume_file = current_dir / "assets" / "DHRUV TYAGI.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "PORTFOLIO | DHRUV TYAGI"
-PAGE_ICON = "🚀"
+#PAGE_TITLE = "PORTFOLIO | DHRUV TYAGI"
+#PAGE_ICON = "🚀"
 NAME = "DHRUV TYAGI"
 EMAIL = "dhruvtyagionly1@gmail.com"
 
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+#st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
 #with open(css_file) as f:
@@ -140,17 +156,18 @@ col22,col8,col23 = st.columns(3)
 with col22:
       if st.button("WORK EXPERIENCE"): 
         st.markdown('''
-        🔹SIEMENS | Research and Development Intern
-        ✔June 2022 - August 2022 | Kalwa,Mumbai
-
-        -  Created a workplan for the Automation of labs. In this an API of labs was created using Mind Connect IOT module.
-        -  Made a prototype application on Mindsphere cloud using Mendix and did PLC programming of labs on LOGO and TIA portal software
-
+        
         🔹INVARIANCE AUTOMATION LTD. | SDE Intern 
         ✔Nov 2022 - Dec 2022 | IIT Kanpur
 
         -  To Develop an OpenCV and Python based User Interface which ensures the proper alignment of various components on PCB.
         -  To implement machine learning models for matching the product with the prototype for building an automated PCB assembly line.
+        
+        🔹SIEMENS | Research and Development Intern
+        ✔June 2022 - August 2022 | Kalwa,Mumbai
+
+        -  Created a workplan for the Automation of labs. In this an API of labs was created using Mind Connect IOT module.
+        -  Made a prototype application on Mindsphere cloud using Mendix and did PLC programming of labs on LOGO and TIA portal software
         ''')
 with col8:
   st.write("")
