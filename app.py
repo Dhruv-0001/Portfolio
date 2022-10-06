@@ -191,3 +191,5 @@ lottie_url_hello = "https://assets9.lottiefiles.com/packages/lf20_3v8d2ktb.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
 st_lottie(lottie_hello, key="hello")
 
+s.image("https://i.pinimg.com/originals/e5/93/ab/e593ab0589d5f1b389e4dfbcce2bce20.gif")
+
