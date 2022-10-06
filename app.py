@@ -12,7 +12,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTY1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+             background-image: url("https://images.unsplash.com/photo-1622516956417-3d6b92ec7667?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTB8Q1dpX3ZZR1RaVTR8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
              background-attachment: fixed;
              background-size: cover
          }}
