@@ -125,7 +125,7 @@ cola2,colb2,colc2 = st.columns(3)
 with cola2:
   st.write('')
 with colb2:
-    st.image("https://i.gifer.com/embedded/download/yy3.gif")
+    st.image("https://i.pinimg.com/originals/f7/be/aa/f7beaa7787bd55e9ac54135566d6af97.gif")
 with colc2:
   st.write('')
 
@@ -180,5 +180,5 @@ st.markdown('''
 ''')
 
 
-st.image("https://i.gifer.com/XcFC.gif")
+st.image("https://media.baamboozle.com/uploads/images/137708/1606338149_127029")
 
