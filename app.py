@@ -170,7 +170,7 @@ st.markdown('''
 ''')
 st.write("\n")
 
-st.subheader("WORK EXPERIENCE")
+st.subheader("EXTRA-CURRICULAR")
 st.write("\n")
 
 st.markdown('''
