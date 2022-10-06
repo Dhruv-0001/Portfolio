@@ -161,6 +161,7 @@ st.markdown('''
 -  Made a prototype application on Mindsphere cloud using Mendix and did PLC programming of labs on LOGO and TIA portal software
 ''')
 st.write("\n")
+st.image("https://i.pinimg.com/originals/c7/ae/06/c7ae0615b9d39b2837dddfd98e63e42c.gif")
 
 st.subheader("EXTRA-CURRICULAR")
 st.write("\n")
@@ -180,5 +181,5 @@ st.markdown('''
 ''')
 
 
-st.image("https://cutewallpaper.org/21/gifs-transparent-background/1749364-animated-artisttuberculosis-gif-googly-eyes-.gif")
+st.image("https://1.bp.blogspot.com/-PdQiDJK2HrU/WEsMfifARvI/AAAAAAAAAXw/Jbh1id5H3YsQ4ZM3O0QQRGrIdOclAFmugCLcB/s1600/tv-boi-now-with-added-line%2521.gif")
 
