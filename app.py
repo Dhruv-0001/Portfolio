@@ -73,14 +73,7 @@ with col19 :
 with col20 :
   st.write("📫", EMAIL)
 
-st.write('\n')
-cola2,colb2,colc2 = st.columns(3)
-with cola2:
-  st.write('')
-with colb2:
-  st.image("https://cliply.co/wp-content/uploads/2019/12/371903520_SOCIAL_ICONS_TRANSPARENT_400px.gif")
-with colc2:
-  st.write('')
+ st.image("https://cliply.co/wp-content/uploads/2019/12/371903520_SOCIAL_ICONS_TRANSPARENT_400px.gif")
 
 
 icon_size = 20
@@ -98,14 +91,8 @@ with colb:
 with colc:
   st.write('')
 
-st.write('\n')
-cola2,colb2,colc2 = st.columns(3)
-with cola2:
-  st.write('')
-with colb2:
-  st.image("https://i.pinimg.com/originals/e5/93/ab/e593ab0589d5f1b389e4dfbcce2bce20.gif")
-with colc2:
-  st.write('')
+st.image("https://i.pinimg.com/originals/e5/93/ab/e593ab0589d5f1b389e4dfbcce2bce20.gif")
+
 
 st_button('', 'https://dhruv-0001-shoe-hype-shoe-hype-8ebvwa.streamlitapp.com/', 'SHOE HYPE〽️', icon_size)
 st_button('', 'https://github.com/Dhruv-0001/POSE_DETECTION', 'POSE DETECTION', icon_size)
