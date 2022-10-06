@@ -69,7 +69,7 @@ def st_button(icon, url, label, iconsize):
     elif icon == '':
         button_code = f'''
         <p>
-            <a href={url} class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
+            <a href={url} class="btn btn-outline-light text-white btn-lg btn-block" type="button" aria-pressed="true">
                 {label}
             </a>
         </p>'''
