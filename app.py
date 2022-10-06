@@ -152,42 +152,42 @@ with colc2:
 
 st.write('\n')
 
-col22,col8,col23 = st.columns(3)
-with col22:
-      if st.button("WORK EXPERIENCE"): 
-        st.markdown('''
-        
-        🔹INVARIANCE AUTOMATION LTD. | SDE Intern 
-        ✔Nov 2022 - Dec 2022 | IIT Kanpur
+st.subheader("WORK EXPERIENCE")
+st.write("\n")
+st.markdown('''
 
-        -  To Develop an OpenCV and Python based User Interface which ensures the proper alignment of various components on PCB.
-        -  To implement machine learning models for matching the product with the prototype for building an automated PCB assembly line.
-        
-        🔹SIEMENS | Research and Development Intern
-        ✔June 2022 - August 2022 | Kalwa,Mumbai
+🔹INVARIANCE AUTOMATION LTD. | SDE Intern 
+✔Nov 2022 - Dec 2022 | IIT Kanpur
 
-        -  Created a workplan for the Automation of labs. In this an API of labs was created using Mind Connect IOT module.
-        -  Made a prototype application on Mindsphere cloud using Mendix and did PLC programming of labs on LOGO and TIA portal software
-        ''')
-with col8:
-  st.write("")
-with col23:
-      if st.button("EXTRA-CURRICULAR"):
-        st.markdown('''
-        🔹CO-SECRETARY, ALUMNI ASSOCIATION HBTU
-        -  Organized and Managed Alumni Meet with Mr.President as our chief guest on the centennial celebration of HBTU.
-        -  Working on Building a Job Portal which will provide placement and internship opportunities to students.
-        🔹TECHNICAL WRITING
-        -  Written some articles on Emerging Technologies including Nano Diamond Batteries,Metaverse,etc.
-        🔹SOCIAL MEDIA MANAGEMENT
-        -  HANDLED THE INSTAGRAM PAGE OF ALUMNI ASSOCIATION AND LINKEDIN PAGE OF VARIOUS COLLEGE SOCITIES.
-        -  HAVE KNOWLEDGE OF SOCIAL MEDIA ALGORITHMS AND SEO.
-        🔹ATHLETICS
-        -  WON MEDAL IN SPRINTING IN STATE CAMP.
-        -  LOVES TO WORKOUT, FOR BEING HEALTHY.
-        ''')
+-  To Develop an OpenCV and Python based User Interface which ensures the proper alignment of various components on PCB.
+-  To implement machine learning models for matching the product with the prototype for building an automated PCB assembly line.
 
-lottie_url_hello = "https://assets10.lottiefiles.com/packages/lf20_x62chJ.json"
+🔹SIEMENS | Research and Development Intern
+✔June 2022 - August 2022 | Kalwa,Mumbai
+
+-  Created a workplan for the Automation of labs. In this an API of labs was created using Mind Connect IOT module.
+-  Made a prototype application on Mindsphere cloud using Mendix and did PLC programming of labs on LOGO and TIA portal software
+''')
+st.write("\n")
+
+st.subheader("WORK EXPERIENCE")
+st.write("\n")
+
+st.markdown('''
+🔹CO-SECRETARY, ALUMNI ASSOCIATION HBTU
+-  Organized and Managed Alumni Meet with Mr.President as our chief guest on the centennial celebration of HBTU.
+-  Working on Building a Job Portal which will provide placement and internship opportunities to students.
+🔹TECHNICAL WRITING
+-  Written some articles on Emerging Technologies including Nano Diamond Batteries,Metaverse,etc.
+🔹SOCIAL MEDIA MANAGEMENT
+-  HANDLED THE INSTAGRAM PAGE OF ALUMNI ASSOCIATION AND LINKEDIN PAGE OF VARIOUS COLLEGE SOCITIES.
+-  HAVE KNOWLEDGE OF SOCIAL MEDIA ALGORITHMS AND SEO.
+🔹ATHLETICS
+-  WON MEDAL IN SPRINTING IN STATE CAMP.
+-  LOVES TO WORKOUT, FOR BEING HEALTHY.
+''')
+
+lottie_url_hello = "https://assets9.lottiefiles.com/packages/lf20_3v8d2ktb.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
 st_lottie(lottie_hello, key="hello")
 
