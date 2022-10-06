@@ -79,7 +79,7 @@ st.image("https://cliply.co/wp-content/uploads/2019/12/371903520_SOCIAL_ICONS_TR
 icon_size = 20
 
 st_button('linkedin', 'https://www.linkedin.com/in/dhruv-tyagi-9a526b218/', 'LINKEDIN', icon_size)
-st_button('', 'https://github.com/Dhruv-0001', 'GITHUB', icon_size)
+st_button('github', 'https://github.com/Dhruv-0001', 'GITHUB', icon_size)
 st_button('', 'https://www.instagram.com/iamdhruv.tyagi/', 'INSTAGRAM', icon_size)
 
 st.write('\n')
