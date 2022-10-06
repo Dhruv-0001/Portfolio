@@ -141,20 +141,20 @@ col22,col8,col23 = st.columns(3)
 with col22:
     st.write("")
 with col8:
-  if st.button("WORK EXPERIENCE"): 
-    st.markdown('''
-    🔹SIEMENS | Research and Development Intern
-    ✔June 2022 - August 2022 | Kalwa,Mumbai
+      if st.button("WORK EXPERIENCE"): 
+        st.markdown('''
+        🔹SIEMENS | Research and Development Intern
+        ✔June 2022 - August 2022 | Kalwa,Mumbai
 
-    -  Created a workplan for the Automation of labs. In this an API of labs was created using Mind Connect IOT module.
-    -  Made a prototype application on Mindsphere cloud using Mendix and did PLC programming of labs on LOGO and TIA portal software
+        -  Created a workplan for the Automation of labs. In this an API of labs was created using Mind Connect IOT module.
+        -  Made a prototype application on Mindsphere cloud using Mendix and did PLC programming of labs on LOGO and TIA portal software
 
-    🔹UNICOFY | Website Developer
-    ✔HBTU|College Based Startup
+        🔹UNICOFY | Website Developer
+        ✔HBTU|College Based Startup
 
-    -  It is a startup based on Indian government scheme ODOP which aims to increase the selling of Famous Products of Every District.
-    -  Working on collecting data and building a product and gift recommendation system.
-    ''')
+        -  It is a startup based on Indian government scheme ODOP which aims to increase the selling of Famous Products of Every District.
+        -  Working on collecting data and building a product and gift recommendation system.
+        ''')
 with col23:
   st.write("")
 
@@ -162,24 +162,24 @@ cold1,cold2,cold3 = st.columns(3)
 with cold1:
     st.write("")
 with cold2:
-  if st.button("EXTRA-CURRICULAR"):
-    st.markdown('''
-    🔹CO-SECRETARY, ALUMNI ASSOCIATION HBTU
-    -  Organized and Managed Alumni Meet with Mr.President as our chief guest on the centennial celebration of HBTU.
-    -  Working on Building a Job Portal which will provide placement and internship opportunities to students.
-    🔹TECHNICAL WRITING
-    -  Written some articles on Emerging Technologies including Nano Diamond Batteries,Metaverse,etc.
-    🔹SOCIAL MEDIA MANAGEMENT
-    -  HANDLED THE INSTAGRAM PAGE OF ALUMNI ASSOCIATION AND LINKEDIN PAGE OF VARIOUS COLLEGE SOCITIES.
-    -  HAVE KNOWLEDGE OF SOCIAL MEDIA ALGORITHMS AND SEO.
-    🔹ATHLETICS
-    -  WON MEDAL IN SPRINTING IN STATE CAMP.
-    -  LOVES TO WORKOUT, FOR BEING HEALTHY.
-    ''')
+      if st.button("EXTRA-CURRICULAR"):
+        st.markdown('''
+        🔹CO-SECRETARY, ALUMNI ASSOCIATION HBTU
+        -  Organized and Managed Alumni Meet with Mr.President as our chief guest on the centennial celebration of HBTU.
+        -  Working on Building a Job Portal which will provide placement and internship opportunities to students.
+        🔹TECHNICAL WRITING
+        -  Written some articles on Emerging Technologies including Nano Diamond Batteries,Metaverse,etc.
+        🔹SOCIAL MEDIA MANAGEMENT
+        -  HANDLED THE INSTAGRAM PAGE OF ALUMNI ASSOCIATION AND LINKEDIN PAGE OF VARIOUS COLLEGE SOCITIES.
+        -  HAVE KNOWLEDGE OF SOCIAL MEDIA ALGORITHMS AND SEO.
+        🔹ATHLETICS
+        -  WON MEDAL IN SPRINTING IN STATE CAMP.
+        -  LOVES TO WORKOUT, FOR BEING HEALTHY.
+        ''')
 with cold3:
     st.write("")
 
-lottie_url_hello = "https://assets8.lottiefiles.com/packages/lf20_wzaxxisv.json"
+lottie_url_hello = "https://assets8.lottiefiles.com/packages/lf20_mdbdc5l7.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
 st_lottie(lottie_hello, key="hello")
 
