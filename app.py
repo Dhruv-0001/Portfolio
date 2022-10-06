@@ -88,7 +88,6 @@ icon_size = 20
 st_button('linkedin', 'https://www.linkedin.com/in/dhruv-tyagi-9a526b218/', 'LINKEDIN', icon_size)
 st_button('', 'https://github.com/Dhruv-0001', 'GITHUB', icon_size)
 st_button('', 'https://www.instagram.com/iamdhruv.tyagi/', 'INSTAGRAM', icon_size)
-st_button('', EMAIL, 'E-MAIL', icon_size)
 
 st.write('\n')
 cola,colb,colc = st.columns(3)
