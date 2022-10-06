@@ -125,7 +125,7 @@ cola2,colb2,colc2 = st.columns(3)
 with cola2:
   st.write('')
 with colb2:
-    st.image("https://i.pinimg.com/originals/f7/be/aa/f7beaa7787bd55e9ac54135566d6af97.gif")
+    st.image("https://static.wixstatic.com/media/614445_94fc54c7e5914b70a12a6ebcaebbde31~mv2.gif")
 with colc2:
   st.write('')
 
@@ -180,5 +180,5 @@ st.markdown('''
 ''')
 
 
-st.image("https://media.baamboozle.com/uploads/images/137708/1606338149_127029")
+st.image("https://cutewallpaper.org/21/gifs-transparent-background/1749364-animated-artisttuberculosis-gif-googly-eyes-.gif")
 
