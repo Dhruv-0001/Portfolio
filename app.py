@@ -103,9 +103,7 @@ cola2,colb2,colc2 = st.columns(3)
 with cola2:
   st.write('')
 with colb2:
-  lottie_url_hello = "https://assets7.lottiefiles.com/packages/lf20_ygiuluqn.json"
-  lottie_hello = load_lottieurl(lottie_url_hello)
-  st_lottie(lottie_hello)
+  st.image("https://i.pinimg.com/originals/e5/93/ab/e593ab0589d5f1b389e4dfbcce2bce20.gif")
 with colc2:
   st.write('')
 
@@ -142,9 +140,7 @@ cola2,colb2,colc2 = st.columns(3)
 with cola2:
   st.write('')
 with colb2:
-  lottie_url_hello = "https://assets8.lottiefiles.com/packages/lf20_f2vwipdy.json"
-  lottie_hello = load_lottieurl(lottie_url_hello)
-  st_lottie(lottie_hello)
+  st.image("https://onlinepngtools.com/images/examples-onlinepngtools/sunset.gif")
 with colc2:
   st.write('')
 
@@ -185,9 +181,6 @@ st.markdown('''
 -  LOVES TO WORKOUT, FOR BEING HEALTHY.
 ''')
 
-lottie_url_hello = "https://assets9.lottiefiles.com/packages/lf20_3v8d2ktb.json"
-lottie_hello = load_lottieurl(lottie_url_hello)
-st_lottie(lottie_hello, key="hello")
 
-st.image("https://i.pinimg.com/originals/e5/93/ab/e593ab0589d5f1b389e4dfbcce2bce20.gif")
+st.image("http://25.media.tumblr.com/tumblr_m8kuxjuJcg1qdemqzo1_400.gif")
 
