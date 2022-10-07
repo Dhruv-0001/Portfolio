@@ -37,15 +37,6 @@ def st_button(icon, url, label, iconsize):
                 {label}
             </a>
         </p>'''
-    elif icon == 'play':
-        st.video("https://www.youtube.com/watch?v=kVpv8-5XWOI")
-        button_code = f'''
-        <p>
-            <a  class="btn btn-outline-warning  btn-lg btn-block" type="button" aria-pressed="true">
-                
-                {label}
-            </a>
-        </p>'''
     elif icon == '':
         button_code = f'''
         <p>
