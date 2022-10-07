@@ -12,7 +12,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://c4.wallpaperflare.com/wallpaper/346/806/481/low-poly-abstract-blue-digital-art-wallpaper-preview.jpg");
+             background-image: url("https://4kwallpapers.com/images/walls/thumbs/3957.png");
              background-size: cover
          }}
          </style>
