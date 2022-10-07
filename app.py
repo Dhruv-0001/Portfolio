@@ -38,6 +38,8 @@ cola,colb,colc=st.columns(3)
 with colb:
     if st.button("PLAY ▶"):
         st.video("https://www.youtube.com/watch?v=kVpv8-5XWOI")
+icon_size = 20
+st_button('play', '', 'play a song', icon_size)
                 
 col19,col20 = st.columns(2)
 with col19 :
