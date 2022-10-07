@@ -134,23 +134,32 @@ st.markdown('''
 st.write("\n")
 st.image("https://i.pinimg.com/originals/c7/ae/06/c7ae0615b9d39b2837dddfd98e63e42c.gif")
 
-st.subheader("EXTRA-CURRICULAR")
+st.header("EXTRA-CURRICULAR")
 st.write("\n")
-
+st.subheader("SIEMENS SCHOLAR")
 st.markdown('''
-🔹CO-SECRETARY, ALUMNI ASSOCIATION HBTU
+-  I am honored to be selected as a Siemens Scholar.
+-  In this, only the top 200 candidates from India are selected for the Germandual education-based Scholarship program.
+''')
+st.subheader("CO-SECRETARY, ALUMNI ASSOCIATION HBTU")
+st.markdown('''
 -  Organized and Managed Alumni Meet with Mr.President as our chief guest on the centennial celebration of HBTU.
 -  Working on Building a Job Portal which will provide placement and internship opportunities to students.
-🔹TECHNICAL WRITING
+''')
+st.subheader("TECHNICAL WRITING")
+st.markdown('''
 -  Written some articles on Emerging Technologies including Nano Diamond Batteries,Metaverse,etc.
-🔹SOCIAL MEDIA MANAGEMENT
+''')
+st.subheader("SOCIAL MEDIA MANAGEMENT")
+st.markdown('''
 -  HANDLED THE INSTAGRAM PAGE OF ALUMNI ASSOCIATION AND LINKEDIN PAGE OF VARIOUS COLLEGE SOCITIES.
 -  HAVE KNOWLEDGE OF SOCIAL MEDIA ALGORITHMS AND SEO.
-🔹ATHLETICS
+''')
+st.subheader("ATHLETICS")
+st.markdown('''
 -  WON MEDAL IN SPRINTING IN STATE CAMP.
 -  LOVES TO WORKOUT, FOR BEING HEALTHY.
 ''')
 
-
-st.image("https://1.bp.blogspot.com/-PdQiDJK2HrU/WEsMfifARvI/AAAAAAAAAXw/Jbh1id5H3YsQ4ZM3O0QQRGrIdOclAFmugCLcB/s1600/tv-boi-now-with-added-line%2521.gif")
+st.image("https://media2.giphy.com/media/eNvPo1OAXVpZsSIUXU/200.gif?cid=82a1493bisbxsid6z8xkcqxn0ej4mq2vczxypcost3v019oc&rid=200.gif&ct=s")
 
