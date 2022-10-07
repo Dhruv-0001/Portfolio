@@ -33,15 +33,17 @@ col1, col2, col3 = st.columns(3)
 col2.image(profile_pic)
 
 st.header("DHRUV  TYAGI")
-html_string = """
-            <audio controls autoplay>
-              <source src="https://cdn.trendybeatz.com/audio/Justin-Bieber-Ghost-(TrendyBeatz.com).mp3" type="audio/mp3">
-            </audio>
-            """
-sound = st.empty()
-sound.markdown(html_string, unsafe_allow_html=True) 
-time.sleep(2) 
-sound.empty() 
+col1, col2, col3 = st.columns(3)
+with col2:
+    html_string = """
+                <audio controls autoplay>
+                  <source src="https://cdn.trendybeatz.com/audio/Justin-Bieber-Ghost-(TrendyBeatz.com).mp3" type="audio/mp3">
+                </audio>
+                """
+    sound = st.empty()
+    sound.markdown(html_string, unsafe_allow_html=True) 
+    time.sleep(120) 
+    sound.empty() 
 
 st.info("(●'◡'●)....Hello..! I am Just an avid learner who loves to apply Python and Machine learning on real world projects. I am currently deep diving into Data Science and have a keen interest in Blockchain and WEB 3.0 technologies🚀.")
 
