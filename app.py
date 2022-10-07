@@ -35,7 +35,7 @@ col2.image(profile_pic)
 st.header("DHRUV  TYAGI")
 html_string = """
             <audio controls autoplay>
-              <source src="https://www.orangefreesounds.com/wp-content/uploads/2022/04/Small-bell-ringing-short-sound-effect.mp3" type="audio/mp3">
+              <source src="https://cdn.trendybeatz.com/audio/Justin-Bieber-Ghost-(TrendyBeatz.com).mp3" type="audio/mp3">
             </audio>
             """
 sound = st.empty()
