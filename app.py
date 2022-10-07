@@ -7,21 +7,6 @@ import requests
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
 
-def add_bg_from_url():
-    st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background-image: url("https://4kwallpapers.com/images/walls/thumbs/3957.png");
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
-
-add_bg_from_url()
-
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
@@ -160,5 +145,5 @@ st.markdown('''
 -  LOVES TO WORKOUT, FOR BEING HEALTHY.
 ''')
 
-st.image("https://media2.giphy.com/media/eNvPo1OAXVpZsSIUXU/200.gif?cid=82a1493bisbxsid6z8xkcqxn0ej4mq2vczxypcost3v019oc&rid=200.gif&ct=s")
+st.image("https://media1.giphy.com/media/JRUtn0sCuAn0bzfc4C/giphy.gif?cid=6c09b952150be24c2938c57cd4d8c8d1042262901b015dc7&rid=giphy.gif&ct=s")
 
