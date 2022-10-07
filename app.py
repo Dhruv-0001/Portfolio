@@ -115,15 +115,13 @@ st_button('', 'https://github.com/Dhruv-0001/Metaverse.git', 'METAVERSE', icon_s
 
 
 st.write('\n')
-st.image("https://www.venuexplorer.com.sg/uploads/Working%20in%20progresss.gif  ")
+st.image("https://www.learninglinksindia.org/public/images/Journey-Boat.gif")
 st.write('\n')
 
-st.subheader("WORK EXPERIENCE")
+st.header("WORK EXPERIENCE")
 st.write("\n")
+st.header("INVARIANCE AUTOMATION LTD. | SDE Intern | Nov 2022 - Dec 2022 | IIT Kanpur")
 st.markdown('''
-
-🔹INVARIANCE AUTOMATION LTD. | SDE Intern 
-✔Nov 2022 - Dec 2022 | IIT Kanpur
 
 -  To Develop an OpenCV and Python based User Interface which ensures the proper alignment of various components on PCB.
 -  To implement machine learning models for matching the product with the prototype for building an automated PCB assembly line.
