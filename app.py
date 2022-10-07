@@ -33,8 +33,10 @@ col1, col2, col3 = st.columns(3)
 col2.image(profile_pic)
 
 st.header("DHRUV  TYAGI")
-col1, col2, col3 = st.columns(3)
-with col2:
+col1a, col2a, col3a = st.columns(3)
+with col1a:
+    st.write("")
+with col2a:
     html_string = """
                 <audio controls autoplay>
                   <source src="https://cdn.trendybeatz.com/audio/Justin-Bieber-Ghost-(TrendyBeatz.com).mp3" type="audio/mp3">
@@ -44,6 +46,8 @@ with col2:
     sound.markdown(html_string, unsafe_allow_html=True) 
     time.sleep(120) 
     sound.empty() 
+with col3a:
+    st.write("")
 
 st.info("(●'◡'●)....Hello..! I am Just an avid learner who loves to apply Python and Machine learning on real world projects. I am currently deep diving into Data Science and have a keen interest in Blockchain and WEB 3.0 technologies🚀.")
 
