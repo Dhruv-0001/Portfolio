@@ -33,10 +33,10 @@ col1, col2, col3 = st.columns(3)
 col2.image(profile_pic)
 
 st.header("DHRUV  TYAGI")
-st.video("https://www.youtube.com/watch?v=kVpv8-5XWOI")
-
 st.info("(●'◡'●)....Hello..! I am Just an avid learner who loves to apply Python and Machine learning on real world projects. I am currently deep diving into Data Science and have a keen interest in Blockchain and WEB 3.0 technologies🚀.")
-
+if st.button("PLAY'):
+    st.video("https://www.youtube.com/watch?v=kVpv8-5XWOI")
+             
 col19,col20 = st.columns(2)
 with col19 :
   st.download_button(
