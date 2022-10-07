@@ -12,7 +12,7 @@ from streamlit_lottie import st_lottie_spinner
          f"""
          <style>
          .stApp {{
-             background-image: url("https://cdn.pixabay.com/photo/2018/03/29/15/58/blue-3272584__340.jpg");
+             background-image: url("https://images.pexels.com/photos/2748716/pexels-photo-2748716.jpeg?auto=compress&cs=tinysrgb&w=600");
              background-attachment: fixed;
              background-size: cover
          }}
