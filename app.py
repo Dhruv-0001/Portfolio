@@ -35,7 +35,7 @@ col2.image(profile_pic)
 st.header("DHRUV  TYAGI")
 
 st.markdown("┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉", unsafe_allow_html=True)
-cola,colb,colc=st.columns((1,2,1))
+cola,colb,colc=st.columns(3)
 with colb:
     if st.button("▶ PLAY MY SONG  🎸 "):
         st.video("https://www.youtube.com/watch?v=kVpv8-5XWOI")
