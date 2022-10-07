@@ -33,23 +33,7 @@ col1, col2, col3 = st.columns(3)
 col2.image(profile_pic)
 
 st.header("DHRUV  TYAGI")
-'''
-col1a, col2a, col3a = st.columns(3)
-with col1a:
-    st.write("")
-with col2a:
-    html_string = """
-                <audio controls autoplay>
-                  <source src="https://cdn.trendybeatz.com/audio/Justin-Bieber-Ghost-(TrendyBeatz.com).mp3" type="audio/mp3">
-                </audio>
-                """
-    sound = st.empty()
-    sound.markdown(html_string, unsafe_allow_html=True) 
-    time.sleep(120) 
-    sound.empty() 
-with col3a:
-    st.write("")
-'''
+st.video("https://www.youtube.com/watch?v=kVpv8-5XWOI")
 
 st.info("(●'◡'●)....Hello..! I am Just an avid learner who loves to apply Python and Machine learning on real world projects. I am currently deep diving into Data Science and have a keen interest in Blockchain and WEB 3.0 technologies🚀.")
 
@@ -101,12 +85,12 @@ st.image("https://static.wixstatic.com/media/614445_94fc54c7e5914b70a12a6ebcaebb
 
 st_button('', 'https://github.com/Dhruv-0001/Tech_Article-NDB.git', 'NDBs', icon_size)
 st_button('', 'https://github.com/Dhruv-0001/Metaverse.git', 'METAVERSE', icon_size)
-
-st.write('\n')
-st.image("https://www.learninglinksindia.org/public/images/Journey-Boat.gif")
 st.write('\n')
 
 st.header("WORK EXPERIENCE")
+
+st.write('\n')
+st.image("https://www.learninglinksindia.org/public/images/Journey-Boat.gif")
 st.write("\n")
 st.header("INVARIANCE AUTOMATION LTD. | SDE Intern | Nov 2022 - Dec 2022 | IIT Kanpur")
 st.markdown('To Develop an OpenCV and Python based User Interface which ensures the proper alignment of various components on PCB.')
@@ -114,11 +98,12 @@ st.markdown('To implement machine learning models for matching the product with 
 st.header("SIEMENS | Research and Development Intern | June 2022 - August 2022 | Kalwa,Mumbai")
 st.markdown('Created a workplan for the Automation of labs. In this an API of labs was created using Mind Connect IOT module.')
 st.markdown('Made a prototype application on Mindsphere cloud using Mendix and did PLC programming of labs on LOGO and TIA portal software')
-st.write("\n")
-st.image("https://media2.giphy.com/media/Sx9icPlpIAYSJiMYik/giphy.gif?cid=ecf05e475jqzcaep3a3svn4ecebs6kmrcls2a7isaatkj6d8&rid=giphy.gif&ct=s")
 
 st.header("EXTRA-CURRICULAR")
 st.write("\n")
+st.image("https://media2.giphy.com/media/Sx9icPlpIAYSJiMYik/giphy.gif?cid=ecf05e475jqzcaep3a3svn4ecebs6kmrcls2a7isaatkj6d8&rid=giphy.gif&ct=s")
+st.write("\n")
+
 st.subheader("SIEMENS SCHOLAR")
 st.markdown('I am honored to be selected as a Siemens Scholar.')
 st.markdown('In this, only the top 200 candidates from India are selected for the Germandual education-based Scholarship program.')
