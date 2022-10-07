@@ -33,6 +33,16 @@ col1, col2, col3 = st.columns(3)
 col2.image(profile_pic)
 
 st.header("DHRUV  TYAGI")
+html_string = """
+            <audio controls autoplay>
+              <source src="https://www.orangefreesounds.com/wp-content/uploads/2022/04/Small-bell-ringing-short-sound-effect.mp3" type="audio/mp3">
+            </audio>
+            """
+sound = st.empty()
+sound.markdown(html_string, unsafe_allow_html=True) 
+time.sleep(2) 
+sound.empty() 
+
 st.info("(●'◡'●)....Hello..! I am Just an avid learner who loves to apply Python and Machine learning on real world projects. I am currently deep diving into Data Science and have a keen interest in Blockchain and WEB 3.0 technologies🚀.")
 
 col19,col20 = st.columns(2)
