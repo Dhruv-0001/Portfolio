@@ -125,10 +125,9 @@ st.markdown('''
 
 -  To Develop an OpenCV and Python based User Interface which ensures the proper alignment of various components on PCB.
 -  To implement machine learning models for matching the product with the prototype for building an automated PCB assembly line.
-
-🔹SIEMENS | Research and Development Intern
-✔June 2022 - August 2022 | Kalwa,Mumbai
-
+''')
+st.header("SIEMENS | Research and Development Intern | June 2022 - August 2022 | Kalwa,Mumbai")
+st.markdown('''
 -  Created a workplan for the Automation of labs. In this an API of labs was created using Mind Connect IOT module.
 -  Made a prototype application on Mindsphere cloud using Mendix and did PLC programming of labs on LOGO and TIA portal software
 ''')
