@@ -58,8 +58,7 @@ st.write("[![Star](https://img.shields.io/github/stars/dataprofessor/links.svg?l
 col1, col2, col3 = st.columns(3)
 col2.image(profile_pic)
 
-new_title = '<p style="font-family:sans-serif; color:Blue; font-size: 42px;">DHRUV  TYAGI</p>'
-st.header(new_title)
+st.header("DHRUV  TYAGI")
 
 st.info("(●'◡'●)....Hello..! I am Just an avid learner who loves to apply Python and Machine learning on real world projects. I am currently deep diving into Data Science and have a keen interest in Blockchain and WEB 3.0 technologies🚀.")
 
