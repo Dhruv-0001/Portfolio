@@ -38,21 +38,7 @@ cola,colb,colc=st.columns(3)
 with colb:
     if st.button("PLAY ▶"):
         st.video("https://www.youtube.com/watch?v=kVpv8-5XWOI")
-    
-cola,colb,colc=st.columns(3)
-with colb:
-  clicked = clickable_images(
-      [
-          "https://toppng.com/uploads/preview/oogle-play-music-icon-play-music-11563051935nzbnx3pxwu.png",
-      ],
-      titles=[f"Image #{str(i)}" for i in range(1)],
-      div_style={"display": "flex", "justify-content": "center", "flex-wrap": "wrap"},
-      img_style={"margin": "5px", "height": "100px"},
-  )
-
-if clicked == 0 :
-  st.video("https://www.youtube.com/watch?v=kVpv8-5XWOI")
-             
+                
 col19,col20 = st.columns(2)
 with col19 :
   st.download_button(
