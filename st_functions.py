@@ -54,7 +54,3 @@ def st_button(icon, url, label, iconsize):
             </a>
         </p>'''
     return st.markdown(button_code, unsafe_allow_html=True)
-
-with colb:
-    if st.button("PLAY ▶"):
-        st.video("https://www.youtube.com/watch?v=kVpv8-5XWOI")
