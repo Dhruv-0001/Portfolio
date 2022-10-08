@@ -4,6 +4,7 @@ from PIL import Image
 from st_functions import st_button, load_css
 import time
 import requests
+
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
@@ -33,8 +34,6 @@ col1, col2, col3 = st.columns(3)
 col2.image(profile_pic)
 
 st.header("DHRUV  TYAGI")
-new_title = '<p style="font-family:Forte; color:Blue; font-size: 42px;">DHRUV  TYAGI</p>'
-st.markdown(new_title, unsafe_allow_html=True)
 
 st.markdown("┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉", unsafe_allow_html=True)
 cola,colb,colc=st.columns(3)
@@ -66,12 +65,8 @@ st_button('instagram', 'https://www.instagram.com/iamdhruv.tyagi/', 'INSTAGRAM',
 
 st.write('\n')
 cola,colb,colc = st.columns(3)
-with cola:
-  st.write('')
 with colb:
   st.subheader("PROJECTS")
-with colc:
-  st.write('')
 
 st.image("https://i.pinimg.com/originals/e5/93/ab/e593ab0589d5f1b389e4dfbcce2bce20.gif")
 
