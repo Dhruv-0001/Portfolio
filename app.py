@@ -35,12 +35,16 @@ col2.image(profile_pic)
 
 st.header("DHRUV  TYAGI")
 
-st.markdown("┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉", unsafe_allow_html=True)
 cola,colb,colc=st.columns(3)
 with colb:
-    if st.button("▶ PLAY MY SONG  🎸 "):
+    st.markdown("┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉", unsafe_allow_html=True)
+cola,colb,colc=st.columns(3)
+with colb:
+    if st.button("▶ PLAY 🎸🎼 "):
         st.video("https://www.youtube.com/watch?v=kVpv8-5XWOI")
-st.markdown("┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉", unsafe_allow_html=True)
+cola,colb,colc=st.columns(3)
+with colb:
+    st.markdown("┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉", unsafe_allow_html=True)
 
 st.info("(●'◡'●)....Hello..! I am Just an avid learner who loves to apply Python and Machine learning on real world projects. I am currently deep diving into Data Science and have a keen interest in Blockchain and WEB 3.0 technologies🚀.")
 
@@ -76,12 +80,8 @@ st_button('', 'https://github.com/Dhruv-0001/Reimagined-System', 'REIMAGINED SYS
 
 st.write('\n')
 cola1,colb1,colc1 = st.columns(3)
-with cola1:
-  st.write('')
 with colb1:
   st.subheader("TECH ARTICLES")
-with colc1:
-  st.write('')
 
 st.write('\n')
 st.image("https://static.wixstatic.com/media/614445_94fc54c7e5914b70a12a6ebcaebbde31~mv2.gif")
