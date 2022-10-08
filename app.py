@@ -33,6 +33,8 @@ col1, col2, col3 = st.columns(3)
 col2.image(profile_pic)
 
 st.header("DHRUV  TYAGI")
+new_title = '<p style="font-family:Forte; color:Blue; font-size: 42px;">DHRUV  TYAGI</p>'
+st.markdown(new_title, unsafe_allow_html=True)
 
 st.markdown("┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉", unsafe_allow_html=True)
 cola,colb,colc=st.columns(3)
