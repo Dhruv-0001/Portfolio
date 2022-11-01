@@ -53,15 +53,27 @@ def music(poster,url,description):
     <body>
     <center>
     <p>{description}</p>
-    <video
-      controls
-      src={url}
-      poster={poster}
-      width="300">
-      Sorry, your browser doesn't support embedded videos, but don't worry, you can
-      <a href={url}>download it</a>
-      and watch it with your favorite video player!
+
+    <button onclick="playVid()" type="button">Play Video</button>
+    <button onclick="pauseVid()" type="button">Pause Video</button><br> 
+
+    <video id="myVideo" width="320" height="176">
+      <source src={url} type="video/mp4">
+      Your browser does not support HTML5 video.
     </video>
+
+    <script> 
+    var vid = document.getElementById("myVideo"); 
+
+    function playVid() { 
+      vid.play(); 
+    } 
+
+    function pauseVid() { 
+      vid.pause(); 
+    } 
+    </script> 
+
     </center>
  
     </body>
