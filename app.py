@@ -1,7 +1,7 @@
 from pathlib import Path
 import streamlit as st
 from PIL import Image
-from st_functions import st_button, load_css
+from st_functions import st_button, load_css, music
 import time
 import requests
 
