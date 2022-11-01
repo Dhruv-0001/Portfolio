@@ -37,19 +37,10 @@ st.header("DHRUV  TYAGI")
 
 cola,colb,colc=st.columns(3)
 with colb:
-    if st.button("▶ PLAY 🎸🎼 "):
-        st.video("https://www.youtube.com/watch?v=kVpv8-5XWOI")
+    if st.button("PLAY A BEAUTIFUL SONG 🎸 "):
+        st.video("https://www.youtube.com/watch?v=syFZfO_wfMQ")
 
 st.info("(●'◡'●)....Hello..! I am Just an avid learner who loves to apply Python and Machine learning on real world projects. I am currently deep diving into Data Science and have a keen interest in Blockchain and WEB 3.0 technologies🚀.")
-
-def play():
-    code='''
-    <iframe width="300" height="30"
-    src="https://www.youtube.com/watch?v=kVpv8-5XWOI">
-    </iframe>
-    '''
-    st.markdown(code, unsafe_allow_html=True)
-play()
 
 col19,col20 = st.columns(2)
 with col19 :
