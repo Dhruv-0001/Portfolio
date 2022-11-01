@@ -35,8 +35,6 @@ col2.image(profile_pic)
 
 st.header("DHRUV  TYAGI")
 
-music("PLAY A BEAUTIFUL SONG 🎸","https://www.youtube.com/watch?v=kVpv8-5XWOI","LISTEN TO THIS BEAUTIFUL SONG.")
-
 cola,colb,colc=st.columns(3)
 with colb:
     if st.button("▶ PLAY 🎸🎼 "):
