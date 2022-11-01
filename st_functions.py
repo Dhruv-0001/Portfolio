@@ -65,20 +65,23 @@ def text_button(label,description):
     '''
     return st.markdown(code,unsafe_allow_html=True)
 
-def music(label,url,description):
+def music(poster,url,description):
     code=f'''
     <html>
     <head>
     <body>
-    <div class="tab">
-    <a href="#link" class="btn btn-outline-warning  btn-lg btn-block" type="button" aria-pressed="true">ABOUT {label}</a>
-    <div id="link">
-    <h3>Content to Link</h3>
     <center>
     <p>{description}</p>
-    <p>{st.video(url)}</p>
     </center>
-    </div>
+    <video
+      controls
+      src={url}
+      poster={poster}
+      width="620">
+      Sorry, your browser doesn't support embedded videos, but don't worry, you can
+      <a href={url}>download it</a>
+      and watch it with your favorite video player!
+    </video>
     </body>
     </html>
   
