@@ -77,7 +77,8 @@ def music(poster,url,description):
       controls
       src={url}
       poster={poster}
-      width="620">
+      height="200"
+      width="200">
       Sorry, your browser doesn't support embedded videos, but don't worry, you can
       <a href={url}>download it</a>
       and watch it with your favorite video player!
