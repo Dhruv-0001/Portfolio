@@ -45,3 +45,42 @@ def st_button(icon, url, label, iconsize):
             </a>
         </p>'''
     return st.markdown(button_code, unsafe_allow_html=True)
+
+def text_button(label,description):
+    code=f'''
+    <html>
+    <head>
+    <body>
+    <div class="tab">
+    <a href="#link" class="btn btn-outline-warning  btn-lg btn-block" type="button" aria-pressed="true">ABOUT {label}</a>
+    <div id="link">
+    <h3>Content to Link</h3>
+    <center>
+    <p>{description}</p>
+    </center>
+    </div>
+    </body>
+    </html>
+  
+    '''
+    return st.markdown(code,unsafe_allow_html=True)
+
+def music(label,url,description):
+    code=f'''
+    <html>
+    <head>
+    <body>
+    <div class="tab">
+    <a href="#link" class="btn btn-outline-warning  btn-lg btn-block" type="button" aria-pressed="true">ABOUT {label}</a>
+    <div id="link">
+    <h3>Content to Link</h3>
+    <center>
+    <p>{description}</p>
+    <p>{st.video(url)}</p>
+    </center>
+    </div>
+    </body>
+    </html>
+  
+    '''
+    return st.markdown(code,unsafe_allow_html=True)
