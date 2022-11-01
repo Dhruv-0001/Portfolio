@@ -35,8 +35,14 @@ col2.image(profile_pic)
 
 st.header("DHRUV  TYAGI")
 
-music("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZClFO9ykxV2Uv9BewonqR6OO6MUbvaGQMwg&usqp=CAU","https://www.youtube.com/watch?v=kVpv8-5XWOI","LISTEN TO THIS BEAUTIFUL SONG 🎸")
-
+def play():
+    code='''
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+    </iframe>
+    '''
+    st.markdown(code, unsafe_allow_html=True)
+play()
 cola,colb,colc=st.columns(3)
 with colb:
     if st.button("▶ PLAY 🎸🎼 "):
