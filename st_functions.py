@@ -46,38 +46,3 @@ def st_button(icon, url, label, iconsize):
         </p>'''
     return st.markdown(button_code, unsafe_allow_html=True)
 
-def music(poster,url,description):
-    code=f'''
-    <html>
-    <head>
-    <body>
-    <center>
-    <p>{description}</p>
-
-    <button onclick="playVid()" type="button">Play Video</button>
-    <button onclick="pauseVid()" type="button">Pause Video</button><br> 
-
-    <video id="myVideo" width="320" height="176">
-      <source src={url} type="video/mp4">
-      Your browser does not support HTML5 video.
-    </video>
-
-    <script> 
-    var vid = document.getElementById("myVideo"); 
-
-    function playVid() { 
-      vid.play(); 
-    } 
-
-    function pauseVid() { 
-      vid.pause(); 
-    } 
-    </script> 
-
-    </center>
- 
-    </body>
-    </html>
-  
-    '''
-    return st.markdown(code,unsafe_allow_html=True)
