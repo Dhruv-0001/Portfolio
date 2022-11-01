@@ -38,7 +38,7 @@ st.header("DHRUV  TYAGI")
 def play():
     code='''
     <iframe width="420" height="315"
-    src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+    src="https://www.youtube.com/watch?v=kVpv8-5XWOIcontrols=0">
     </iframe>
     '''
     st.markdown(code, unsafe_allow_html=True)
