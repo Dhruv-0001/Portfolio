@@ -67,12 +67,6 @@ st_button('', 'https://dhruv-0001-hacktoberfest2022-tech-talk-main-z5l9tc.stream
 st_button('', 'https://dhruv-0001-stocks-forecastor-app-gqlm6j.streamlitapp.com/', 'STOCKS FORECASTER💹' , icon_size)
 st_button('', 'https://github.com/Dhruv-0001/POSE_DETECTION', 'POSE DETECTION', icon_size)
 
-st.write('\n')
-a=[1,2,4]
-for i in a:
-        i=st.columns(len(a))
-        with i:
-                st.subheader(i)
         
 [cola1 ,colb1,colc1] = st.columns(a)
 with colb1:
