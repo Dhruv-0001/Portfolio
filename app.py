@@ -4,6 +4,7 @@ from PIL import Image
 from st_functions import st_button, load_css, embed_component
 import time
 import requests
+import streamlit.components.v1 as components
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
