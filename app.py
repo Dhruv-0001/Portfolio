@@ -1,7 +1,7 @@
 from pathlib import Path
 import streamlit as st
 from PIL import Image
-from st_functions import st_button, load_css
+from st_functions import st_button, load_css, embed_component
 import time
 import requests
 
@@ -18,6 +18,9 @@ NAME = "DHRUV TYAGI"
 EMAIL = "dhruvtyagionly1@gmail.com"
 
 st.set_page_config(page_title=PAGE_TITLE)
+
+with st.sidebar:
+        components.html(embed_component['linkedin'],height=310)
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
 #with open(css_file) as f:
