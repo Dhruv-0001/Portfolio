@@ -34,9 +34,6 @@ col1, col2, col3 = st.columns(3)
 col2.image(profile_pic)
 
 st.header("DHRUV  TYAGI")
-cola,colb,colc=st.columns(3)
-with colb:
-   st.markdown("📫", EMAIL)
 
 cola,colb,colc=st.columns(3)
 with colb:
@@ -52,6 +49,7 @@ icon_size = 20
 st_button('linkedin', 'https://www.linkedin.com/in/dhruv-tyagi-9a526b218/', 'LINKEDIN', icon_size)
 st_button('github', 'https://github.com/Dhruv-0001', 'GITHUB', icon_size)
 st_button('instagram', 'https://www.instagram.com/iamdhruv.tyagi/', 'INSTAGRAM', icon_size)
+st_button('', EMAIL, 'dhruvtyagionly1@gmail.com', icon_size)
 
 st.write('\n')
 cola,colb,colc = st.columns(3)
