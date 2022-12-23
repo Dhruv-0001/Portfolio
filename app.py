@@ -1,7 +1,7 @@
 from pathlib import Path
 import streamlit as st
 from PIL import Image
-from st_functions import st_button, load_css, embed_component
+from st_functions import *
 import time
 import requests
 import streamlit.components.v1 as components
