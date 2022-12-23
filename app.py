@@ -34,7 +34,9 @@ col1, col2, col3 = st.columns(3)
 col2.image(profile_pic)
 
 st.header("DHRUV  TYAGI")
-st.header("📫", EMAIL)
+cola,colb,colc=st.columns(3)
+with colb:
+   st.markdown("📫", EMAIL)
 
 cola,colb,colc=st.columns(3)
 with colb:
@@ -80,9 +82,8 @@ st.header("WORK EXPERIENCE")
 st.write('\n')
 st.image("https://www.learninglinksindia.org/public/images/Journey-Boat.gif")
 st.write("\n")
-st.subheader("SIEMENS")
+st.header("SIEMENS")
 st.subheader("Research and Development Intern")
-st.subheader("June 2022 - August 2022 | Kalwa,Mumbai")
 st.markdown('• Researched and created the work plan for the Automation of Lab work at the R&D department.')
 st.markdown('• Created API of labs using the Mind Connect IOT 2040 module for controlling the labs remotely.')
 st.markdown('• Prototyped an application on Mindsphere cloud using Mendix and designed PLC programs of 10+ labs on LOGO and TIA software.')
@@ -90,18 +91,23 @@ st_button('', 'https://github.com/Dhruv-0001/Reimagined-System', 'REIMAGINED SYS
 
 st.write("\n")
 
-st.subheader("Open-Source Maintainer")
-st.header("Hacktoberfest")
+st.header("Open-Source Maintainer")
+st.subheader("Hacktoberfest")
 st.markdown('• Maintained and developed the Tech Talk (An Open-Source Tech Topics Learning Website) at Hacktoberfest 2022.')
 st_button('', 'https://dhruv-0001-hacktoberfest2022-tech-talk-main-z5l9tc.streamlit.app/', 'TECH TALK', icon_size)
 
 st.write("\n")
 
-st.subheader("Research Work")
-st.header("Real Time Recommendation Engine for Social Media Awareness")
-st.markdown('- Ongoing')
+st.header("Research Work")
+st.subheader("Real Time Recommendation Engine for Social Media Awareness")
+st.markdown('Currently Ongoing')
 st.markdown('• A real time Recommendation Engine which provides updates, resources, news articles, sentimental analysis, etc. on trending\latest topics surfing on social media.')
 
+st.write("\n")
+
+st.header("ACHIEVEMENTS")
+st.write("\n")
+st.image("https://cliply.co/wp-content/uploads/2021/02/392102940_MEDAL_3D_400px.gif")
 st.write("\n")
 
 st.header("EXTRA-CURRICULAR")
