@@ -34,7 +34,7 @@ col1, col2, col3 = st.columns(3)
 col2.image(profile_pic)
 
 st.header("DHRUV  TYAGI")
-st.write("📫", EMAIL)
+st.header("📫", EMAIL)
 
 cola,colb,colc=st.columns(3)
 with colb:
@@ -70,7 +70,7 @@ with colb1:
 
 st.write('\n')
 st.image("https://static.wixstatic.com/media/614445_94fc54c7e5914b70a12a6ebcaebbde31~mv2.gif")
-
+st.markdown('•  Written some articles on Emerging Technologies including Nano Diamond Batteries,Metaverse,etc.')
 st_button('', 'https://github.com/Dhruv-0001/Tech_Article-NDB.git', 'NDBs', icon_size)
 st_button('', 'https://github.com/Dhruv-0001/Metaverse.git', 'METAVERSE', icon_size)
 st.write('\n')
@@ -80,11 +80,29 @@ st.header("WORK EXPERIENCE")
 st.write('\n')
 st.image("https://www.learninglinksindia.org/public/images/Journey-Boat.gif")
 st.write("\n")
-st.header("SIEMENS | Research and Development Intern | June 2022 - August 2022 | Kalwa,Mumbai")
+st.subheader("SIEMENS")
+st.subheader("Research and Development Intern")
+st.subheader("June 2022 - August 2022 | Kalwa,Mumbai")
 st.markdown('• Researched and created the work plan for the Automation of Lab work at the R&D department.')
 st.markdown('• Created API of labs using the Mind Connect IOT 2040 module for controlling the labs remotely.')
 st.markdown('• Prototyped an application on Mindsphere cloud using Mendix and designed PLC programs of 10+ labs on LOGO and TIA software.')
 st_button('', 'https://github.com/Dhruv-0001/Reimagined-System', 'REIMAGINED SYSTEM', icon_size)
+
+st.write("\n")
+
+st.subheader("Open-Source Maintainer")
+st.header("Hacktoberfest")
+st.markdown('• Maintained and developed the Tech Talk (An Open-Source Tech Topics Learning Website) at Hacktoberfest 2022.')
+st_button('', 'https://dhruv-0001-hacktoberfest2022-tech-talk-main-z5l9tc.streamlit.app/', 'TECH TALK', icon_size)
+
+st.write("\n")
+
+st.subheader("Research Work")
+st.header("Real Time Recommendation Engine for Social Media Awareness")
+st.markdown('- Ongoing')
+st.markdown('• A real time Recommendation Engine which provides updates, resources, news articles, sentimental analysis, etc. on trending\latest topics surfing on social media.')
+
+st.write("\n")
 
 st.header("EXTRA-CURRICULAR")
 st.write("\n")
@@ -92,19 +110,16 @@ st.image("https://media2.giphy.com/media/Sx9icPlpIAYSJiMYik/giphy.gif?cid=ecf05e
 st.write("\n")
 
 st.subheader("SIEMENS SCHOLAR")
-st.markdown('▢ I am honored to be selected as a Siemens Scholar.')
-st.markdown('▢ In this, only the top 200 candidates from India are selected for the Germandual education-based Scholarship program.')
+st.markdown('•  I am honored to be selected as a Siemens Scholar.')
+st.markdown('•  In this, only the top 200 candidates from India are selected for the Germandual education-based Scholarship program.')
 st.subheader("CO-SECRETARY, ALUMNI ASSOCIATION HBTU")
-st.markdown('▢ Organized and Managed Alumni Meet with Mr.President as our chief guest on the centennial celebration of HBTU.')
-st.markdown('▢ Working on Building a Job Portal which will provide placement and internship opportunities to students.')
-st.subheader("TECHNICAL WRITING")
-st.markdown('▢ Written some articles on Emerging Technologies including Nano Diamond Batteries,Metaverse,etc.')
+st.markdown('•  Organized and Managed Alumni Meet with Mr.President as our chief guest on the centennial celebration of HBTU.')
 st.subheader("SOCIAL MEDIA MANAGEMENT")
-st.markdown('▢ HANDLED THE INSTAGRAM PAGE OF ALUMNI ASSOCIATION AND LINKEDIN PAGE OF VARIOUS COLLEGE SOCIETIES.')
-st.markdown('▢ HAVE KNOWLEDGE OF SOCIAL MEDIA ALGORITHMS AND SEO.')
+st.markdown('•  HANDLED THE INSTAGRAM PAGE OF ALUMNI ASSOCIATION AND LINKEDIN PAGE OF VARIOUS COLLEGE SOCIETIES.')
+st.markdown('•  HAVE KNOWLEDGE OF SOCIAL MEDIA ALGORITHMS AND SEO.')
 st.subheader("ATHLETICS")
-st.markdown('▢ WON MEDAL IN SPRINTING IN STATE CAMP.')
-st.markdown('▢ LOVES TO WORKOUT, FOR BEING HEALTHY.')
+st.markdown('•  WON MEDAL IN SPRINTING IN STATE CAMP.')
+st.markdown('•  LOVES TO WORKOUT, FOR BEING HEALTHY.')
 
 st.image("https://i.gifer.com/50Tg.gif")
 
