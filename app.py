@@ -113,7 +113,7 @@ skills=['Data Science','RDBMS','Cassandra','AWS Athena','Snowflake','Comet-ML','
 skill_col_size = 5
 
 def skill_tab():
-    rows,cols = len(skills)//skill_col_size,skill_col_size
+    rows,cols = len(skills)
     skills = iter(skills)
     if len(skills)%skill_col_size!=0:
         rows+=1
