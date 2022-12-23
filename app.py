@@ -113,7 +113,7 @@ num=skills[n:n+5]
 num=st.columns(len(num))
 for i in num:
         with i:
-                st.markdown(num[i])
+                st.markdown(i)
         
 
 st.header("ACHIEVEMENTS")
