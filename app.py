@@ -107,6 +107,26 @@ st.markdown('• A real time Recommendation Engine which provides updates, resou
 
 st.write("\n")
 
+st.subheader('Skills & Tools ⚒️')
+
+skills=['Data Science','RDBMS','Cassandra','AWS Athena','Snowflake','Comet-ML','Python','Java','C++','Airflow','AWS S3','Tableau','Metabase','Thoughtspot','Streamlit']
+skill_col_size = 5
+
+def skill_tab():
+    rows,cols = len(skills)//skill_col_size,skill_col_size
+    skills = iter(skills)
+    if len(skills)%skill_col_size!=0:
+        rows+=1
+    for x in range(rows):
+        columns = st.columns(skill_col_size)
+        for index_ in range(skill_col_size):
+            try:
+                columns[index_].button(next(skills))
+            except:
+                break
+with st.spinner(text="Loading section..."):
+    skill_tab()
+
 st.header("ACHIEVEMENTS")
 st.write("\n")
 st.image("https://cliply.co/wp-content/uploads/2021/02/392102940_MEDAL_3D_400px.gif")
