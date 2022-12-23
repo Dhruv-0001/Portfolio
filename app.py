@@ -68,7 +68,7 @@ st_button('', 'https://dhruv-0001-stocks-forecastor-app-gqlm6j.streamlitapp.com/
 st_button('', 'https://github.com/Dhruv-0001/POSE_DETECTION', 'POSE DETECTION', icon_size)
 
         
-[cola1 ,colb1,colc1] = st.columns(a)
+[cola1 ,colb1,colc1] = st.columns(3)
 with colb1:
   st.subheader("TECH ARTICLES")
 
