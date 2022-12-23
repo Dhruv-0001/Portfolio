@@ -112,7 +112,7 @@ n=0
 num=skills[n:n+5]
 num=st.columns(len(num))
 for i in num:
-        with num[i]:
+        with i:
                 st.markdown(num[i])
         
 
