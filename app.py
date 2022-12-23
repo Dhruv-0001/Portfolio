@@ -68,7 +68,7 @@ st_button('', 'https://dhruv-0001-stocks-forecastor-app-gqlm6j.streamlitapp.com/
 st_button('', 'https://github.com/Dhruv-0001/POSE_DETECTION', 'POSE DETECTION', icon_size)
 
         
-[cola1 ,colb1,colc1] = st.columns(3)
+cola1 ,colb1,colc1 = st.columns(3)
 with colb1:
   st.subheader("TECH ARTICLES")
 
@@ -107,7 +107,14 @@ st.markdown('• A real time Recommendation Engine which provides updates, resou
 
 st.write("\n")
 
-
+skills=[1,2,4,55,66,77,88,34,35,36,34]
+n=0
+num=skills[n:n+5]
+num=st.columns(len(num))
+for i in num:
+        with num[i]:
+                st.markdown(num[i])
+        
 
 st.header("ACHIEVEMENTS")
 st.write("\n")
