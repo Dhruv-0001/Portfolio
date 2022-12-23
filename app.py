@@ -68,7 +68,13 @@ st_button('', 'https://dhruv-0001-stocks-forecastor-app-gqlm6j.streamlitapp.com/
 st_button('', 'https://github.com/Dhruv-0001/POSE_DETECTION', 'POSE DETECTION', icon_size)
 
 st.write('\n')
-cola1,colb1,colc1 = st.columns(3)
+a=[1,2,4]
+for i in a:
+        i=st.columns(len(a))
+        with i:
+                st.subheader(i)
+        
+[cola1 ,colb1,colc1] = st.columns(a)
 with colb1:
   st.subheader("TECH ARTICLES")
 
@@ -107,25 +113,7 @@ st.markdown('• A real time Recommendation Engine which provides updates, resou
 
 st.write("\n")
 
-st.subheader('Skills & Tools ⚒️')
 
-skills=['Data Science','RDBMS','Cassandra','AWS Athena','Snowflake','Comet-ML','Python','Java','C++','Airflow','AWS S3','Tableau','Metabase','Thoughtspot','Streamlit']
-skill_col_size = 5
-
-def skill_tab():
-    rows,cols = len(skills)
-    skills = iter(skills)
-    if len(skills)%skill_col_size!=0:
-        rows+=1
-    for x in range(rows):
-        columns = st.columns(skill_col_size)
-        for index_ in range(skill_col_size):
-            try:
-                columns[index_].button(next(skills))
-            except:
-                break
-with st.spinner(text="Loading section..."):
-    skill_tab()
 
 st.header("ACHIEVEMENTS")
 st.write("\n")
