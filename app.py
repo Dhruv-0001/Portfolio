@@ -67,7 +67,7 @@ st_button('', 'https://dhruv-0001-hacktoberfest2022-tech-talk-main-z5l9tc.stream
 st_button('', 'https://dhruv-0001-stocks-forecastor-app-gqlm6j.streamlitapp.com/', 'STOCKS FORECASTER💹' , icon_size)
 st_button('', 'https://github.com/Dhruv-0001/POSE_DETECTION', 'POSE DETECTION', icon_size)
 
-nu=[cola1 ,colb1,colc1]        
+nu=["cola1","colb1","colc1"]        
 nu = st.columns(3)
 with nu[1]:
   st.subheader("TECH ARTICLES")
