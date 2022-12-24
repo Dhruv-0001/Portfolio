@@ -115,7 +115,8 @@ num1=st.columns(len(num))
 print(num1)
 for i in range(0,len(num)):
         with num1[i]:
-                st.markdown(num[i])
+                num[i].button()
+
 n=+1        
         
 
