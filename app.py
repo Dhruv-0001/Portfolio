@@ -113,10 +113,10 @@ a=0
 num=skills[n:n+5]
 num1=st.columns(len(num))
 print(num1)
-for i in num1:
-        with i:
-                st.markdown(num[a])
-        a=+1
+for i in range(0,len(num)):
+        with num1[i]:
+                st.markdown(num[i])
+n=+1        
         
 
 st.header("ACHIEVEMENTS")
