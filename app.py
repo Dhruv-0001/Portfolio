@@ -115,7 +115,7 @@ a=0
 for i in num1:
         with i:
                 st.markdown(num[a])
-        a=+1
+                a=+1
 n=+1        
 
 st.header("ACHIEVEMENTS")
