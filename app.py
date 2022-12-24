@@ -111,12 +111,12 @@ skills=[1,2,4,55,66,77,88,34,35,36,34]
 n=0
 num=skills[n:n+5]
 num1=st.columns(len(num))
+a=0
 for i in num1:
-        a=0
         with i:
                 st.markdown(num[a])
         a=+1
-        
+n=+1        
 
 st.header("ACHIEVEMENTS")
 st.write("\n")
