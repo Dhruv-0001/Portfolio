@@ -113,13 +113,13 @@ skills=["• Python","• NumPy","• Pandas","• Matplotlib","• Power BI","�
 val=int(len(skills)/5)
 n=0
 for j in range(0,val +1):
-        num=skills[n:n+5]
+        num=skills[n:n+4]
         num1=st.columns(len(num))
         print(num1)
         for i in range(0,len(num)):
                 with num1[i]:
                         st.markdown(num[i])
-        n=+5        
+        n=+4        
         
 
 st.header("ACHIEVEMENTS")
