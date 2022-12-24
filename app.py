@@ -108,6 +108,7 @@ st.markdown('• A real time Recommendation Engine which provides updates, resou
 st.write("\n")
 
 skills=[1,2,4,55,66,77,88,34,35,36,34]
+val=int(len(skills)/5)
 n=0
 a=0
 num=skills[n:n+5]
@@ -115,7 +116,7 @@ num1=st.columns(len(num))
 print(num1)
 for i in range(0,len(num)):
         with num1[i]:
-                num[i].button()
+                st.button(num[i])
 
 n=+1        
         
