@@ -107,7 +107,9 @@ st.markdown('• A real time Recommendation Engine which provides updates, resou
 
 st.write("\n")
 
-skills=[1,2,4,55,66,77,88,34,35,36,34]
+st.header("Skills & Tools ⚒️")
+st.write("\n")
+skills=["• Python","• NumPy","• Pandas","• Matplotlib","• Power BI","• SQL","• Shell Scripting","• Data Analysis","• Data Visualization", "• Data Modeling", "• Deployment", "• Hadoop","• Hive","• Apache","• Git", "• Data Structures", "• Algorithms", "• Statistics", "• Database management", "• Excel", "• Linux/Ubuntu","• Streamlit"]
 val=int(len(skills)/5)
 n=0
 for j in range(0,val +1):
