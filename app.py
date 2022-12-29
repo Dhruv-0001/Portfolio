@@ -171,7 +171,7 @@ with cold:
         
 st.write("\n")
 
-cola,colb=st.columns(4)
+cola,colb=st.columns(2)
 with cola:
         st.markdown(skills[20])
 with colb:
