@@ -24,6 +24,7 @@ icon_size = 20
 with st.sidebar:
         components.html(embed_component['linkedin'],height=310)
         st_button('', 'https://www.buymeacoffee.com/DhruvTyagi', 'Buy Me a Coffee☕', icon_size)
+        st_button('', 'https://drive.google.com/file/d/1kbYbeIgRGAe0Qzx3px0a9hb3muQcudFI/view?usp=share_link', 'Download Resume', icon_size)
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
 #with open(css_file) as f:
