@@ -165,17 +165,17 @@ with cola:
 with colb:
         st.markdown(skills[17])
 with colc:
-        st.markdown(skills[18])
+        st.markdown(skills[21])
 with cold:
         st.markdown(skills[19])
         
 st.write("\n")
 
-cola,colb=st.columns(2)
-with cola:
-        st.markdown(skills[20])
+cola,colb,colc,cold=st.columns(4)
 with colb:
-        st.markdown(skills[21])
+        st.markdown(skills[20])
+with colc:
+        st.markdown(skills[18])
         
 st.write('\n')
 st.header("ACHIEVEMENTS")
@@ -211,7 +211,6 @@ st.markdown('•  HANDLED THE INSTAGRAM PAGE OF ALUMNI ASSOCIATION AND LINKEDIN 
 st.markdown('•  HAVE KNOWLEDGE OF SOCIAL MEDIA ALGORITHMS AND SEO.')
 st.subheader("ATHLETICS")
 st.markdown('•  WON MEDAL IN SPRINTING IN STATE CAMP.')
-st.markdown('•  LOVES TO WORKOUT, FOR BEING HEALTHY.')
 
 st.image("https://i.gifer.com/50Tg.gif")
 
