@@ -107,21 +107,77 @@ st.markdown('• A real time Recommendation Engine which provides updates, resou
 
 st.write("\n")
 
-st.header("Skills & Tools ⚒️")
+st.header("Skills & Tools")
+st.image("https://spansystech.com/images/hero/banner3.gif")
 st.write("\n")
 skills=["• Python","• NumPy","• Pandas","• Matplotlib","• Power BI","• SQL","• Shell Scripting","• Data Analysis","• Data Visualization", "• Data Modeling", "• Deployment", "• Hadoop","• Hive","• Apache","• Git", "• Data Structures", "• Algorithms", "• Statistics", "• Database management", "• Excel", "• Linux/Ubuntu","• Streamlit"]
-val=int(len(skills)/4)
-n=0
-for j in range(0,val +1):
-        num=skills[n:n+4]
-        num1=st.columns(len(num))
-        print(num1)
-        for i in range(0,len(num)):
-                with num1[i]:
-                        st.markdown(num[i])
-        n=+4        
-        
 
+cola,colb,colc,cold=st.columns(4)
+with cola:
+        st.markdown(skills[0])
+with colb:
+        st.markdown(skills[1])
+with colc:
+        st.markdown(skills[2])
+with cold:
+        st.markdown(skills[3])
+st.write("\n")
+
+cola,colb,colc,cold=st.columns(4)
+with cola:
+        st.markdown(skills[4])
+with colb:
+        st.markdown(skills[5])
+with colc:
+        st.markdown(skills[6])
+with cold:
+        st.markdown(skills[7])
+
+st.write("\n")
+
+cola,colb,colc,cold=st.columns(4)
+with cola:
+        st.markdown(skills[8])
+with colb:
+        st.markdown(skills[9])
+with colc:
+        st.markdown(skills[10])
+with cold:
+        st.markdown(skills[11])
+
+st.write("\n")
+
+cola,colb,colc,cold=st.columns(4)
+with cola:
+        st.markdown(skills[12])
+with colb:
+        st.markdown(skills[13])
+with colc:
+        st.markdown(skills[14])
+with cold:
+        st.markdown(skills[15])
+
+st.write("\n")
+
+cola,colb,colc,cold=st.columns(4)
+with cola:
+        st.markdown(skills[16])
+with colb:
+        st.markdown(skills[17])
+with colc:
+        st.markdown(skills[18])
+with cold:
+        st.markdown(skills[19])
+        
+st.write("\n")
+
+cola,colb=st.columns(4)
+with cola:
+        st.markdown(skills[20])
+with colb:
+        st.markdown(skills[21])
+        
+st.write('\n')
 st.header("ACHIEVEMENTS")
 st.write("\n")
 st.image("https://cliply.co/wp-content/uploads/2021/02/392102940_MEDAL_3D_400px.gif")
