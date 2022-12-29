@@ -19,9 +19,11 @@ NAME = "DHRUV TYAGI"
 EMAIL = "dhruvtyagionly1@gmail.com"
 
 st.set_page_config(page_title=PAGE_TITLE)
+icon_size = 20
 
 with st.sidebar:
         components.html(embed_component['linkedin'],height=310)
+        st_button('', 'https://www.buymeacoffee.com/DhruvTyagi', 'Buy Me a Coffee☕', icon_size)
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
 #with open(css_file) as f:
