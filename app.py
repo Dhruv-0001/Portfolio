@@ -110,7 +110,7 @@ st.write("\n")
 st.header("Skills & Tools")
 st.image("https://spansystech.com/images/hero/banner3.gif")
 st.write("\n")
-skills=["• Python","• NumPy","• Pandas","• Matplotlib","• Power BI","• SQL","• Shell Scripting","• Data Analysis","• Data Visualization", "• Data Modeling", "• Deployment", "• Hadoop","• Hive","• Apache","• Git", "• Data Structures", "• Algorithms", "• Statistics", "• Database management", "• Excel", "• Linux/Ubuntu","• Streamlit"]
+skills=["• Python","• NumPy","• Pandas","• Matplotlib","• Power BI","• SQL","• Shell Scripting","• Data Analysis","• Data Visualization", "• Data Modeling", "• Deployment", "• Hadoop","• Hive","• Apache","• Git", "• Data Structures", "• Algorithms", "• Statistics", "• DBMS", "• Excel", "• Linux/Ubuntu","• Streamlit"]
 
 cola,colb,colc,cold=st.columns(4)
 with cola:
