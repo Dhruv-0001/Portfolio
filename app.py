@@ -47,7 +47,7 @@ with colb:
     if st.button("Listen A Melody 🎸 "):
         st.video("https://www.youtube.com/watch?v=syFZfO_wfMQ")
 
-st.info("(●'◡'●)....Hello..! I am Just an avid learner who loves to apply Python and Machine learning on real world projects. I am currently deep diving into Data Science and have a keen interest in Blockchain and WEB 3.0 technologies🚀.")
+st.info("I am Just an avid learner who loves to apply Python and Machine learning on real world problems. I am currently deep diving into Data Science, Open Source and have a keen interest in Blockchain and WEB 3.0 technologies🚀.")
 
 st.image("https://cliply.co/wp-content/uploads/2019/12/371903520_SOCIAL_ICONS_TRANSPARENT_400px.gif")
 
@@ -66,6 +66,7 @@ with colb:
 st.image("https://i.pinimg.com/originals/e5/93/ab/e593ab0589d5f1b389e4dfbcce2bce20.gif")
 
 st_button('', 'https://dhruv-0001-shoe-hype-shoe-hype-8ebvwa.streamlitapp.com/', 'SHOE HYPE〽️', icon_size)
+st_button('', 'https://dhruv-0001-snapshot-app-keifr6.streamlit.app/', 'Snap Shot', icon_size)
 st_button('', 'https://dhruv-0001-hacktoberfest2022-tech-talk-main-z5l9tc.streamlit.app/', 'TECH TALK', icon_size)
 st_button('', 'https://dhruv-0001-stocks-forecastor-app-gqlm6j.streamlitapp.com/', 'STOCKS FORECASTER💹' , icon_size)
 st_button('', 'https://github.com/Dhruv-0001/POSE_DETECTION', 'POSE DETECTION', icon_size)
@@ -113,7 +114,7 @@ st.write("\n")
 st.header("Skills & Tools")
 st.image("https://spansystech.com/images/hero/banner3.gif")
 st.write("\n")
-skills=["• Python","• NumPy","• Pandas","• Matplotlib","• Power BI","• SQL","• Shell Scripting","• Data Analysis","• Data Visualization", "• Data Modeling", "• Deployment", "• Hadoop","• Hive","• Apache","• Git", "• Data Structures", "• Algorithms", "• Statistics", "• DBMS", "• Excel", "• Linux/Ubuntu","• Streamlit"]
+skills=["• Python","• NumPy","• Pandas","• Matplotlib","• NLP","• SQL","• Shell Scripting","• Data Analysis","• Data Visualization", "• Data Modeling", "• Deployment", "• Deep Learning","• Django","• Apache","• Git", "• Data Structures", "• Algorithms", "• Statistics", "• DBMS", "• Excel", "• Linux/Ubuntu","• Streamlit"]
 
 cola,colb,colc,cold=st.columns(4)
 with cola:
@@ -202,7 +203,7 @@ st.markdown('• Awarded Mechatronics Level 1 & 2 (Learnt PLC programming) and s
 st.write("\n")
 st.header("EXTRA-CURRICULAR")
 st.write("\n")
-st.image("https://techkart.tech/wp-content/uploads/2020/05/ColorlessBitesizedKob-max-1mb.gif")
+st.image("https://images.squarespace-cdn.com/content/v1/59d22f80f14aa1300681d5d6/1592228025808-EXNM0WEGVPOAN0KK6ZJI/colgatehat-2.gif?format=500w")
 st.write("\n")
 
 st.subheader("CO-SECRETARY, ALUMNI ASSOCIATION HBTU")
